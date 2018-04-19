@@ -11,28 +11,32 @@
 
 <body>
     <div id="main_wrapper">
-        <header>
-            <div id="main_title">
-                <img src="images/zozor_logo.png" alt="Logo de Zozor" id="logo" />
-                <h1>Zozor</h1>
-                <h2>Travel diaries</h2>
+        <header id="header">
+            <div id="logo_tag">
+                <div id="main_title">
+                    <img src="images/zozor_logo.png" alt="Logo de Zozor" id="logo" />
+                    <h1>Zozor</h1>
+                    <h2>Travel diaries</h2>
+                </div>
             </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">home</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Resume</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+            <div id="navigation">
+                <nav>
+                    <ul id= navItems>
+                        <li>
+                            <a href="#">home</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Resume</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <div id="banner_image">
             <div id="banner_description">
@@ -44,46 +48,105 @@
         </div>
         <section>
             <article>
-                <h1><img src="images/pin.png" alt="Travel category" class="ico_categorie" />I'm a great traveller</h1>
-                <p>Lorem ipsum dolor sit amet...</p>
-                <p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem...</p>
-                <p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue...</p>
+                <div id=greatTraveller>
+                    <!-- <img id=greatTravellerImg src="images/pin.png" alt="Travel category" class="ico_categorie" />I'm a great traveller</h1> -->
+                    <div id=greatTravellerImg>
+                        <img src="images/pin.png" alt="Travel category" class="ico_categorie" />
+                    </div>
+                    <div id=greatTravellerContent>
+                        <h1 class="ico_categorie">I'm a great traveller</h1>
+                    </div>
+                </div>
+
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                    ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
+                    fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,
+                    justo. Nullam dictum felis eu pede .</p>
+                <p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Tristique senectus et netus et malesuada fames
+                    ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
+                    eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+                    Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae,
+                    ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis
+                    tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque
+                    id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat.
+                    Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum
+                    tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas
+                    semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper
+                    pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum,
+                    elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non
+                    enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque
+                    egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan
+                    porttitor, facilisis luctus, metus</p>
             </article>
-            <aside><h1>About the author</h1>
+            <aside>
+                <h1>About the author</h1>
                 <img src="images/arrow.png.png" alt="" id="arrow" />
-                <p id="zozor_picture"><img src="images/images/zozor.png" alt="Zozor Picture" /></p>
+                <p id="zozor_picture">
+                    <img src="images/zozor.png" alt="Zozor Picture" />
+                </p>
                 <p>Let me introduce myself: My name's Zozor. I was born on 23 November 2005.</p>
-                <p>A bit meager, is it not? This is why I've now decided to write my biography to let my readers know who I really am.</p>
-                <p><img src="images/facebook.png" alt="Facebook" /><img src="images/twitter.png" alt="Twitter" /><img src="images/vimeo.png" alt="Vimeo" /><img src="images/flickr.png" alt="Flickr" /><img src="images/rss.png" alt="RSS" /></p></aside>
+                <p>A bit meager, is it not? This is why I've now decided to write my biography to let my readers know who I
+                    really am.</p>
+                <p id=socMedia>
+                    <img id=socMedia1 src="images/facebook.png" alt="Facebook" />
+                    <img id=socMedia2 src="images/twitter.png" alt="Twitter" />
+                    <img id=socMedia3 src="images/vimeo.png" alt="Vimeo" />
+                    <img id=socMedia4 src="images/flickr.png" alt="Flickr" />
+                    <img id=socMedia5 src="images/rss.png" alt="RSS" />
+                </p>
+            </aside>
         </section>
 
         <footer>
-                <div id="tweet">
-                    <h1>My last tweet</h1>
-                    <p>Hee-haw!</p>
-                    <p>12/05 23:12</p>
-                </div>
-                <div id="my_pictures">
-                    <h1>My pictures</h1>
-                    <p><img src="images/pic1.jpg" alt="Picture" /><img src="images/pic2.jpg" alt="Picture" /><img src="images/pic3.jpg" alt="Picture" /><img src="images/pic4.jpg" alt="Picture" /></p>
-                </div>
-                <div id="my_friends">
-                    <h1>My friends</h1>
-                    <ul>
-                        <li><a href="#">Pupi the rabbit</a></li>
-                        <li><a href="#">Mr Baobab</a></li>
-                        <li><a href="#">Kaiwaii</a></li>
-                        <li><a href="#">Perceval.eu</a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="#">Ji</a></li>
-                        <li><a href="#">Super cucumber</a></li>
-                        <li><a href="#">Prince</a></li>
-                        <li><a href="#">Mr Fan</a></li>
-                    </ul>
-                </div>
-                <div></div>
-            </footer>
+            <div id="tweet">
+                <h1>My last tweet</h1>
+                <p>Hee-haw!</p>
+                <p>12/05 23:12</p>
+            </div>
+            <div id="my_pictures">
+                <h1>My pictures</h1>
+                <p>
+                    <img src="images/pic1.jpg" alt="Picture" />
+                    <img src="images/pic2.jpg" alt="Picture" />
+                    <img src="images/pic3.jpg" alt="Picture" />
+                    <img src="images/pic4.jpg" alt="Picture" />
+                </p>
+            </div>
+            <div id="my_friends">
+                <h1>My friends</h1>
+                <ul>
+                    <li>
+                        <a href="#">Pupi the rabbit</a>
+                    </li>
+                    <li>
+                        <a href="#">Mr Baobab</a>
+                    </li>
+                    <li>
+                        <a href="#">Kaiwaii</a>
+                    </li>
+                    <li>
+                        <a href="#">Perceval.eu</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Ji</a>
+                    </li>
+                    <li>
+                        <a href="#">Super cucumber</a>
+                    </li>
+                    <li>
+                        <a href="#">Prince</a>
+                    </li>
+                    <li>
+                        <a href="#">Mr Fan</a>
+                    </li>
+                </ul>
+            </div>
+            <div></div>
+        </footer>
 </body>
 
 </html>
